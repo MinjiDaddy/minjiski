@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"><meta name="theme-color" content="#102d40"><title>MINJI SKI · 10,000m 타임어택</title>  <script type="module" crossorigin src="./ski-CESl14HT.js"></script>
+  <link rel="modulepreload" crossorigin href="./ranking-api-0A7AwmZU.js">
+  <link rel="modulepreload" crossorigin href="./phaser-DFK5Ua9d.js">
+  <link rel="modulepreload" crossorigin href="./phaser-BFjO2D3v.js">
+  <link rel="modulepreload" crossorigin href="./ski-ranking-api-Dq1xpf9_.js">
+  <link rel="stylesheet" crossorigin href="./ski-aUiqdi1-.css">
+</head>
+<body><main id="ski">
+<div id="ski-game"></div>
+<header><div><small id="skier-label">민지 / SKI</small><strong id="distance">0 m</strong><span id="run-time">00:00.00</span></div><div class="speed"><strong id="speed">0</strong><small>km/h</small></div><button id="restart" aria-label="출발점으로 다시 시작">↻</button></header>
+<div id="boost-status" hidden><b id="boost-label">BOOST</b><div><i id="boost-fill"></i></div></div>
+<aside id="ski-minimap" aria-label="전방 400미터 코스와 장애물 미니맵" hidden><div class="map-title">전방 400m <span>↓</span></div><canvas id="course-map" width="104" height="190" role="img" aria-label="빨간 화살표는 현재 위치, 아래쪽은 진행 방향"></canvas></aside>
+<div id="steering"><span>−90°</span><div><i></i></div><span>+90°</span></div>
+<div id="welcome" class="overlay"><small>FRESH TRACKS / 01</small><h1>MINJI<br><em>SKI</em></h1><p>10,000m 설원, 나만의 최고 기록.</p><div id="ski-characters" role="group" aria-label="캐릭터 선택"><button data-character="minji" aria-pressed="true"><img src="./ski-minji-portrait-v2.png" alt=""><b>민지</b></button><button data-character="cherry" aria-pressed="false"><img src="./ski-cherry-portrait-v2.png" alt=""><b>체리</b></button><button data-character="ppojjak" aria-pressed="false"><img src="./ski-ppojjak-portrait-v2.png" alt=""><b>뽀짝</b></button></div><button id="ski-start">슬로프 시작 ↓</button><a class="rank-link" href="./ski-ranking.html">공유 랭킹 TOP 100 →</a><span id="race-status" role="status"></span><p class="help">화면을 누른 지점에서 좌우로 드래그<br>날개 부츠를 먹으면 3초간 부스터!<br>손을 떼면 직진 · PC는 ← →</p></div>
+<div id="crash" class="overlay" hidden><small>KEEP GOING</small><h2>앗, 충돌!</h2><p>근처 안전한 곳에서 다시 출발</p></div>
+<section id="race-result" class="overlay" hidden><small>10,000 m / COMPLETE</small><h2>FINISH!</h2><strong id="result-score"></strong><p id="result-time"></p><form id="score-form"><label for="skier-name">랭킹 이름</label><input id="skier-name" maxlength="16" autocomplete="nickname" placeholder="1~16자" required><button id="score-submit" disabled>최고 기록 등록</button></form><p id="score-message" role="status"></p><button id="score-retry" hidden>연결 다시 시도</button><a class="rank-link" href="./ski-ranking.html">공유 랭킹 TOP 100 →</a><button id="race-again">캐릭터 선택</button></section><div id="touch-origin" hidden></div><footer><span id="race-mode">10,000 m TIME ATTACK</span><a href="./ski-ranking.html">RANKING ↗</a></footer>
+</main></body></html>
